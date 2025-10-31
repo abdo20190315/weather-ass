@@ -6,6 +6,7 @@ let typingTimer;
 const delay = 700;
 
 
+
 input.addEventListener("input", function () {
   clearTimeout(typingTimer);
   const city = input.value.trim();
@@ -85,4 +86,4 @@ function showWeather(data) {
   weatherResult.innerHTML = cartona;
 }
 
-getWeather("القاهرة");
+getWeather("cairo");
